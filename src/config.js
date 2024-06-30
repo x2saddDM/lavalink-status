@@ -7,31 +7,13 @@ module.exports = {
 
   nodes: [
     {
-      host: "",
-      password: "",
-      port: 2333,
-      identifier: "",
-      secure: true,
+      host: "45.140.165.216",
+      password: "youshallnotpass",
+      port: 1046,
+      identifier: "v3",
+      secure: false,
       reconnectTimeout: 300000,
       reconnectTries: 100,
-    },
-    {
-      host: "",
-      password: "",
-      port: 2333,
-      identifier: "",
-      secure: true,
-      reconnectTimeout: 300000,
-      reconnectTries: 100,
-    },
-    {
-      host: "",
-      password: "",
-      port: 2333,
-      identifier: "",
-      secure: true,
-      reconnectTimeout: 300000,
-      reconnectTries: 100,
-    },
+    }
   ],
 };
